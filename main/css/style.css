@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/**/
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.menu {
+    display: flex;
+    gap: 60px;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-item {
+    font-family: "Raleway";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.products-preview {
+    /* background-image: url(../img/bg.jpg); */
+    /* background-size: 100%; */
+    background: url(../img/bg.jpg) center / contain no-repeat;
+}
+
+.preview {
+    max-width: 600px;
+    padding-top: 180px;
+    padding-bottom: 280px;
+    margin-left: 210px;
+}
+
+.title {
+    font-family: "Playfair Display";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 69px;
+    text-align: left;
+    color: #0E0807;
+}
+
+.description {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #0E0807;
+    margin-top: 33px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 33px
+}
+
+.button-buy {
+    /* width: ; */
+}
+
+.buy {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #ffffff;
+    background-color: #0E0807;
+    padding: 12px 40px;
+}
+
+.info {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    color: #0E0807;
+    padding: 12px 40px;
+}
+
+/*store*/
+.store {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 5%;
+}
+
+.store__title {
+    color: #000000;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 117px;
+}
+
+.image-block__content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 41px;
+    margin-top: 35px;
+
+}
+
+.image-block__content-block {}
+
+.image-block__image {
+    max-width: 344px;
+}
+
+.image-block__header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.image-block__text {
+    color: #0E0807;
+    font-family: "Playfair Display";
+    font-size: 18px;
+}
+
+.image-block__price {
+    color: #0E0807;
+    font-family: "Playfair Display";
+    font-size: 18px;
+}
+
+.image-block__other {
+    color: rgba(14, 8, 7, 0.50);
+    font-family: "Raleway";
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.image-block__button {
+    margin-top: 20px;
+    color: #ffffff;
+    display: flex;
+    width: 344px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    background: #0E0807;
+    border: 1px solid;
+}
+
+/*block-images*/
+
+.block-images {
+    margin: 0 auto;
+    max-width: 1920px;
+
+}
+
+.block-top__title {
+
+    color: #000000;
+    font-family: 'Playfair Display';
+    font-size: 46px;
+    font-weight: 700;
+    width: 637px;
+}
+
+.block-top__description {
+    margin-top: 32px;
+    color: #0E0807;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
+    width: 558px;
+}
+
+.top-block__button {
+    margin-top: 36px;
+    color: #0E0807;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 600;
+    align-self: flex-start;
+    display: flex;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    border: 1px solid #0E0807;
+    background: #FFFFFF;
+
+    transition: 0.5s linear, border-color 1s ease-in;
+}
+
+.top-block__button:hover {
+
+    transform: scale(1.1);
+}
+
+.block-top {
+    margin-top: 237px;
+    display: flex;
+
+}
+
+
+.block-top__left-side {
+
+    max-width: 637px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.block-top__image {
+
+    max-width: 960px;
+    object-fit: cover;
+    /* height: 909px; */
+}
+
+.bottom-block__image {
+    max-width: 960px;
+    object-fit: cover;
+}
+
+.block-bottom__title {
+
+    color: #000000;
+    font-family: 'Playfair Display';
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%;
+    max-width: 637px;
+}
+
+.block-bottom__description {
+
+    color: var(--main, #0E0807);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    max-width: 558px;
+}
+
+.block-bottom {
+
+    display: flex;
+}
+
+.block-bottom__right-side {
+    max-width: 637px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.block-bottom__description {
+
+    margin: 0;
+}
+
+.block-bottom__title {
+
+    margin-bottom: 32px;
+}
+
+/**/
+
+
+/*footer*/
+.main__wrapper_light-gray {
+    margin: 0 auto;
+    display: flex;
+    background-color: #F6F5F5;
+
+    padding: 145px 0;
+    max-width: 1920px;
+    width: 100%;
+    max-height: 405px;
+    height: 100%;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.left_block {
+    padding-left: 210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_block {
+    display: flex;
+    align-items: flex-end;
+    float: right;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.telefone {
+    max-width: 353px;
+    width: 100%;
+}
+
+.item__link {
+    color: black;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-decoration: none;
+}
+
+.image_block {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 210px;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    row-gap: 15px;
+}
+
+@media screen and (max-width: 1850px) {
+    body {
+        max-width: 1680px;
+    }
+}
+
+@media screen and (max-width: 1670px) {
+    .container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    .container {
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .store__title {
+        text-align: center
+    }
+
+    .image-block__content-wrapper {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+
+
+    .image-block__content-wrapper {
+        justify-content: center;
+    }
+}
